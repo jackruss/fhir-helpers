@@ -1,0 +1,40 @@
+{
+  "name": "fhir-helpers",
+  "version": "1.0.0",
+  "description": "FHIR helpers to assist in the building and formatting of FHIR bundles",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "standard *.js helper_methods/*.js tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackruss/fhir-helpers.git"
+  },
+  "keywords": [
+    "FHIR",
+    "fhir",
+    "bundle",
+    "fhir",
+    "helpers",
+    "healthcare",
+    "fhir"
+  ],
+  "author": [
+    "Kevin Collins <kcollins@carekinesis.com> (https://github.com/kevincol54)",
+    "Tom Wilson <twilson@carekinesis.com> (https://github.com/twilson63)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackruss/fhir-helpers/issues"
+  },
+  "homepage": "https://github.com/jackruss/fhir-helpers",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^5.0.0",
+    "tap-spec": "^4.1.1"
+  },
+  "engines": {
+    "node": "4.2.3"
+  }
+}
