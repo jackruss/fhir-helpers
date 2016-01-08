@@ -1,10 +1,8 @@
 module.exports = {
-  createBundle: require('./helperMethods/bundle'),
-  createPatient: require('./helperMethods/patient'),
-  createOrganization: require('./helperMethods/organization'),
-  createMedicationStatement: require('./helperMethods/medication-statement'),
-  createMedicationOrder: require('./helperMethods/medication-order'),
   createAllergy: require('./helperMethods/allergy'),
-  createObservation: require('./helperMethods/observation'),
+  createMedicationOrder: require('./helperMethods/medication-order'),
+  createMedicationStatement: require('./helperMethods/medication-statement'),
+  createOrganization: require('./helperMethods/organization'),
+  createPatient: require('./helperMethods/patient'),
   createPractitioner: require('./helperMethods/practitioner')
 }
