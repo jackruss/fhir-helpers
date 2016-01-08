@@ -1,8 +1,8 @@
 module.exports = {
-  createAllergy: require('./helperMethods/allergy'),
-  createMedicationOrder: require('./helperMethods/medication-order'),
-  createMedicationStatement: require('./helperMethods/medication-statement'),
-  createOrganization: require('./helperMethods/organization'),
-  createPatient: require('./helperMethods/patient'),
-  createPractitioner: require('./helperMethods/practitioner')
+  createAllergy: require('./helper_methods/allergy'),
+  createMedicationOrder: require('./helper_methods/medication-order'),
+  createMedicationStatement: require('./helper_methods/medication-statement'),
+  createOrganization: require('./helper_methods/organization'),
+  createPatient: require('./helper_methods/patient'),
+  createPractitioner: require('./helper_methods/practitioner')
 }
