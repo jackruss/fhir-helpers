@@ -281,6 +281,10 @@ var practitionerResource = fhir.createPractitioner(obj)
 
 ## Contributions
 
+For feature requests or suggestions, please post an issue.
+
+All developers are encourage to provide feedback, comments, update the readme, etc.
+
 This Project follows the StandardJS style guide.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
@@ -291,6 +295,7 @@ To Contribute:
 - `npm install`
 - Write Code
 - Write/Update Test(s)
+- Update README (if necessary)
 - Submit Pull Request
 
 ## Contributors
