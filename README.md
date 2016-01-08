@@ -24,7 +24,6 @@ var obj = {
 
 var allergyResource = fhir.createAllergy(obj)
 
-
 /* → {
       resource: {
         resourceType: 'AllergyIntolerance',
